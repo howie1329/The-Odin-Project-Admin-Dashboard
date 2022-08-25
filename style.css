@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    border: black solid;
+}
+
+.container .Leftside{
+    height: 100vh;
+    width: 20vw;
+    border: green solid;
+    display: grid;
+    grid-template-columns: 20vw;
+    grid-template-rows: repeat(5,5vw);
+}
+
+.container .mainbody{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .Top{
+    width: 80vw;
+    height: 15vh;
+    border: yellow solid;
+}
+
+.container .mainbody .Bottom{
+    width: 80vw;
+    height: 85vh;
+    border: blue solid;
+    display: grid;
+    grid-template-columns: 60vw 17vw;
+    grid-template-rows: 85vh;
+    gap: 10px;
+}
+
+.container .mainbody .Bottom .bottomleft{
+    display: grid;
+    grid-template-columns: repeat(2,25vw);
+    grid-template-rows: repeat(3,13vw);
+    justify-content: center;
+    align-content: center;
+    gap:10px
+}
+
+.container .mainbody .Bottom .bottomright{
+    display: grid;
+    grid-template-columns: 20vw;
+    grid-template-rows: repeat(2,22vw);
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
+.card{
+    border: black solid;
+}
