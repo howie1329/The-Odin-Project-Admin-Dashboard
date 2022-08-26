@@ -52,6 +52,10 @@ button{
     background-color: #374151;
     color: #F5F3FF;
 }
+
+button:hover{
+    box-shadow: 5px 10px #111827;
+}
 .container .Leftside{
     background-color: #111827;
     color: #F5F3FF;
@@ -129,6 +133,9 @@ button{
     text-align: center;
 }
 
+.card:hover{
+    box-shadow: 5px 10px #111827;
+}
 .card >h3{
     text-decoration: underline;
 }
